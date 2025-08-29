@@ -1,4 +1,4 @@
-# TU-SWE: Leave Tracking System (Lab 1)
+# TU-SWE: Leave Tracking System (Lab 2)
 by Lorene Uy
 
 This is a leave tracking system for employees.

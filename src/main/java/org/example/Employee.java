@@ -65,4 +65,14 @@ public class Employee {
         this.leaveBalance -= numberOfDays;
         return true;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Employee Details:\n" +
+                        "Employee ID: %d\n" +
+                        "Name: %s\n" +
+                        "Department: %s\n" +
+                        "Leave Balance: %d\n",
+                this.getEmployeeId(), this.getName(), this.getDepartment(), this.getLeaveBalance());
+    }
 }
